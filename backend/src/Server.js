@@ -6,8 +6,8 @@ const cors = require('cors');
 
 // Aseguramps las rutas correctas
 const autentificacionRoutes = require('./Routes/autentificacion');
-const proyectoRoutes = require('./Routes/Proyectos'); 
-const tareasRoutes = require('./Routes/Tareas'); 
+const proyectoRoutes = require('./Routes/proyectos'); 
+const tareasRoutes = require('./Routes/tareas'); 
 
 
 dotenv.config();
