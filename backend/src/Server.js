@@ -18,11 +18,7 @@ app.use(express.json());
 
 
 // Configuramos CORS
-app.use(cors({
-    origin: 'frontendvercelgit.vercel.app',
-    methods: ['GET', 'POST', 'PUT', 'DELETE'],
-    credentials: true,
-}));
+app.use(cors());
 
 
 // Nuestra conexion a nuestra base de datos utilizando la variable de entorno
