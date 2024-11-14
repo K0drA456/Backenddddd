@@ -19,8 +19,7 @@ app.use(express.json());
 
 // Configuramos CORS
 app.use(cors({
-    origin: 'https://frontendvercel-bsbcrs4wg-nestor-raidel-torrico-rojas-projects.vercel.app',
-        'http://localhost:5173', // Permitir solo tu frontend
+    origin: 'https://frontendvercel-bsbcrs4wg-nestor-raidel-torrico-rojas-projects.vercel.app', // Permitir solo tu frontend
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
 }));
 
